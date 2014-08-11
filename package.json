@@ -1,0 +1,40 @@
+{
+  "name": "pretty-time-zsh",
+  "version": "0.0.0",
+  "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s",
+  "license": "MIT",
+  "repository": "sindresorhus/pretty-time-zsh",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "bin": {
+    "pretty-time": "pretty-time.zsh"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "zsh -c \"[[ \\\"$(./pretty-time.zsh 165392)\\\" == \\\"1d 21h 56m 32s\\\" ]]\""
+  },
+  "files": [
+    "pretty-time.zsh"
+  ],
+  "keywords": [
+    "zsh",
+    "sh",
+    "shell",
+    "bash",
+    "script",
+    "time",
+    "seconds",
+    "sec",
+    "pretty",
+    "human",
+    "humanize",
+    "duration",
+    "period",
+    "range"
+  ]
+}
