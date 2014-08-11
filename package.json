@@ -1,6 +1,6 @@
 {
   "name": "pretty-time-zsh",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s",
   "license": "MIT",
   "repository": "sindresorhus/pretty-time-zsh",
