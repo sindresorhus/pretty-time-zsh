@@ -5,11 +5,11 @@ if (( $# == 0 )); then
 	exit 1
 fi
 
-local human tmp=$1
-local days=$(( tmp / 60 / 60 / 24 ))
-local hours=$(( tmp / 60 / 60 % 24 ))
-local minutes=$(( tmp / 60 % 60 ))
-local seconds=$(( tmp % 60 ))
+local human total_seconds=$1
+local days=$(( total_seconds / 60 / 60 / 24 ))
+local hours=$(( total_seconds / 60 / 60 % 24 ))
+local minutes=$(( total_seconds / 60 % 60 ))
+local seconds=$(( total_seconds % 60 ))
 
 (( days > 0 )) && human+="${days}d "
 (( hours > 0 )) && human+="${hours}h "
