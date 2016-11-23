@@ -2,7 +2,7 @@
 
 if (( $# == 0 )); then
 	echo 'Input required'
-	exit 1
+	return 1
 fi
 
 local human total_seconds=$1
