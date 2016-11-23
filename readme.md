@@ -6,10 +6,18 @@
 ## Install
 
 
-Install with npm, clone this repo, or just download the [`pretty-time.zsh`](pretty-time.zsh) file.
+Install with npm or Antigen, clone this repo, or just download the [`pretty-time.zsh`](pretty-time.zsh) file.
+
+### Install with npm
 
 ```sh
 $ npm install pretty-time-zsh
+```
+
+### Install with Antigen
+
+```sh
+antigen bundle sindresorhus/pretty-time-zsh
 ```
 
 
