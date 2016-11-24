@@ -10,14 +10,14 @@ Install with npm or Antigen, clone this repo, or just download the [`pretty-time
 
 ### Install with npm
 
-```sh
+```
 $ npm install pretty-time-zsh
 ```
 
 ### Install with Antigen
 
-```sh
-antigen bundle sindresorhus/pretty-time-zsh
+```
+$ antigen bundle sindresorhus/pretty-time-zsh
 ```
 
 
@@ -38,11 +38,11 @@ $ ./node_modules/pretty-time-zsh/pretty-time.zsh "$(date +%s) - $(date -v-1d +%s
 
 ## CLI
 
-```sh
+```
 $ npm install --global pretty-time-zsh
 ```
 
-```sh
+```
 $ pretty-time 165392
 1d 21h 56m 32s
 ```
@@ -50,9 +50,9 @@ $ pretty-time 165392
 
 ## Related
 
-See [pretty-ms](https://github.com/sindresorhus/pretty-ms) for a JavaScript version that converts from milliseconds.
+See [`pretty-ms`](https://github.com/sindresorhus/pretty-ms) for a JavaScript version that converts from milliseconds.
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
