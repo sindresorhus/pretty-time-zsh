@@ -20,6 +20,10 @@ $ npm install pretty-time-zsh
 $ antigen bundle sindresorhus/pretty-time-zsh
 ```
 
+### Install with Zgen
+
+1. Add `zgen load sindresorhus/pretty-time-zsh` to your `.zshrc` with your other `zgen load` statements
+2. `rm ${ZGEN_INIT}/init.zsh && zgen save`
 
 ## Usage
 
