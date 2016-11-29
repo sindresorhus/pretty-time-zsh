@@ -22,9 +22,7 @@ $ antigen bundle sindresorhus/pretty-time-zsh
 
 ### Install with Zgen
 
-1. Add `zgen load sindresorhus/pretty-time-zsh` to your `.zshrc` with your other `zgen load` statements
-2. `zgen reset`
-3. Open a new shell and zgen will clone pretty-time-zsh and regenerate init.zsh
+Add `zgen load sindresorhus/pretty-time-zsh` to your `.zshrc` and run `zgen reset`
 
 ## Usage
 
