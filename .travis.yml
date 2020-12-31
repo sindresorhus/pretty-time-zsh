@@ -1,6 +1,0 @@
-language: node_js
-node_js:
-  - 'node'
-before_install:
-  - "sudo apt-get install zsh"
-  - "sudo chsh -s $(which zsh)"

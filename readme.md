@@ -1,4 +1,4 @@
-# pretty-time-zsh [![Build Status](https://travis-ci.org/sindresorhus/pretty-time-zsh.svg?branch=master)](https://travis-ci.org/sindresorhus/pretty-time-zsh)
+# pretty-time-zsh
 
 > Convert seconds to a human readable string: `165392` → `1d 21h 56m 32s`
 
